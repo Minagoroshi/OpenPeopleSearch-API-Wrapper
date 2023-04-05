@@ -16,7 +16,7 @@ This library provides easy-to-use search methods for accessing OpenPeopleSearch 
 ## Installation
 To include this library in your project, simply import the package:
 ```go
-import "github.com/Minagoroshi/OpenPeopleSearch-API-Wrapper"
+go get "github.com/Minagoroshi/OpenPeopleSearch-API-Wrapper"
 ```
 
 ## Usage
