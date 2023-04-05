@@ -27,8 +27,8 @@ session := openpeoplesearch.NewSession("your_api_token")
 Then, you can use the session to call search functions with the required parameters.
 ```go
 result, err := session.PhoneSearch("555-123-4567")
-if err != nil {
-log.Fatal(err)
+  if err != nil {
+  log.Fatal(err)
 }
 
 fmt.Println(result)
